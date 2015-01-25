@@ -82,5 +82,3 @@ act_subj_wform <- spread(data = act_subj_lform,
 write.table(act_subj_wform, "act_subj_wform.txt", 
             sep = " ", row.names = F, col.names = T
             )
-
-act_subj_wform <- read.table("act_subj_wform.txt", header=TRUE, quote="\"")
